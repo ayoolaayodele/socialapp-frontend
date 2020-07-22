@@ -5,6 +5,7 @@ export const create = (userId, token, post) => {
       Accept: 'application/json',
       Authorization: `Bearer ${token}`,
     },
+    mode: 'no-cors',
     body: post,
   })
     .then((response) => {
