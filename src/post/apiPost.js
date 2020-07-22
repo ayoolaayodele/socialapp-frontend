@@ -3,6 +3,7 @@ export const create = (userId, token, post) => {
     method: 'POST',
     headers: {
       Accept: 'application/json',
+      'Content-Type': 'application/json',
       Authorization: `Bearer ${token}`,
     },
     mode: 'no-cors',
