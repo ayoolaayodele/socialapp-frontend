@@ -1,0 +1,9 @@
+{
+  "mongoURI": "mongodb+srv://pecker123:pecker123@cluster0-jg5s1.mongodb.net/<dbname>?retryWrites=true&w=majority",
+  "JWT_SECRET": "KHKDSAHFLK2859FDHKLHGFHGF",
+  "port": "8080",
+  "CLIENT_URL": "http://localhost:3000",
+  "REACT_APP_API_URL": "http://localhost:8080",
+  "GOOGLE_CLIENT_ID": "482847344902-1ciuc061jmbavq3ekqu2k9lrbnavt73k.apps.googleusercontent.com",
+  "verifyIdToken": "dCP_NaYnRaAxsaLZYBwsBJPG"
+}

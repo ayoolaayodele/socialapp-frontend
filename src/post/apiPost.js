@@ -3,6 +3,8 @@ export const create = (userId, token, post) => {
     method: 'POST',
     headers: {
       Accept: 'application/json',
+      'Content-Type': 'application/json',
+      'Access-Control-Allow-Origin': 'https://backendinteract.herokuapp.com',
       Authorization: `Bearer ${token}`,
     },
     body: post,
